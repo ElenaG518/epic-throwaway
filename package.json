@@ -1,20 +1,20 @@
 {
-  "name": "epic-journey",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
-  "scripts": {
-    "test": "mocha",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3"
-  },
-  "devDependencies": {
-    "chai": "^4.1.2",
-    "chai-http": "^4.2.0",
-    "mocha": "^5.2.0"
-  }
+    "name": "epic-journey",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "test": "mocha --exit",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3"
+    },
+    "devDependencies": {
+        "chai": "^4.1.2",
+        "chai-http": "^4.2.0",
+        "mocha": "^5.2.0"
+    }
 }
